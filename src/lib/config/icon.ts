@@ -32,7 +32,7 @@ export const maskable: { [key: number]: Icon } = {
     type: 'image/png'
   },
   512: {
-    src: site.protocol + site.domain + '/assets/maskable@512.png',
+    src: site.protocol + site.domain + '/assets/sixiang@512.png',
     sizes: '512x512',
     type: 'image/png'
   }
