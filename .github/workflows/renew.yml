@@ -20,8 +20,7 @@ jobs:
 
       - name: Build Project
         run: |
-          pnpm install
-          pnpm build
+          npx pnpm i --store=node_modules/.pnpm-store && npx pnpm build
 
       - name: SSH Deploy
         uses: easingthemes/ssh-deploy@v4.1.8
