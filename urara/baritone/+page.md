@@ -1,5 +1,5 @@
 ---
-title: 'Baritone 机器人：让你的 Minecraft 更智能'
+title: 'Baritone 机器人：Minecraft的辅助性机器人'
 image: '/baritone/baritone.webp'
 created: 2023-08-15
 updated: 2023-08-15
@@ -7,7 +7,6 @@ publish: 2023-08-15
 tags:
   - 'Minecraft'
   - 'Baritone'
-  - 'AI'
 ---
 
 大家好！今天我要向大家介绍一款强大的 Minecraft 机器人——Baritone。它是一个基于寻路功能的机器人，可以帮助你完成各种任务，比如采矿、建筑
@@ -151,7 +150,7 @@ Baritone机器人还能够自己进行一些偏好设置，这些配置足有上
 ```
 挖掘钻石（包括深层）
 ```
-#mine diamond_ore deepslate_diamond_ore	
+#mine diamond_ore deepslate_diamond_ore
 ```
 挖掘青金石矿石（包括深层）
 ```
