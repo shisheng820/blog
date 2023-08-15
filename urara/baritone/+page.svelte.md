@@ -9,9 +9,15 @@ tags:
   - 'Baritone'
 ---
 
+<script>
+  import GitHub from '$lib/components/extra/github.svelte'
+</script>
+
 大家好！今天我要向大家介绍一款强大的 Minecraft 机器人——Baritone。它是一个基于寻路功能的机器人，可以帮助你完成各种任务，比如采矿、建筑
 
-Baritone下载地址请访问Github链接: https://github.com/cabaletta/baritone/releases。 Baritone对forge和fabric都支持的。
+Baritone下载地址请访问Github链接: 
+<GitHub user="cabaletta" repo="baritone"/>
+Baritone对forge和fabric都支持的。
 
 那么Baritone能干啥呢？Baritone最核心的功能是寻路，其他功能如采矿、建筑等等都是基于寻路这个核心功能展开的。通常安装Baritone最简单的方法是安装Impact（一款MC辅助，里面集成了Baritone的功能，当然也包括辅助应该有的比如杀戮光环等等功能）；如果追求简洁也可以点上面给的链接，去github下载jar文件，就相当于装mod了。作者github里release发布的文件对应哪个MC版本，标注得很清楚。
 
