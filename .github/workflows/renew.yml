@@ -28,6 +28,7 @@ jobs:
       - name: Build Project
         run: |
           pnpm add -D svelte-bricks
+          pnpm install --no-frozen-lockfile
           npx pnpm i --store=node_modules/.pnpm-store && npx pnpm build
 
       - name: SSH Deploy
