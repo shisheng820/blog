@@ -25,6 +25,9 @@
       {/if}
       <a href="https://beian.miit.gov.cn/" rel="noopener noreferrer external" target="_blank">粤ICP备2022062715号</a>
       <br />
+      {#if footerConfig.html}
+        {@html footerConfig.html}
+      {/if}
       <br />
       Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
         ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
@@ -40,10 +43,6 @@
         href="https://github.com/importantimport/urara">
         Urara
       </a>
-      {#if footerConfig.html}
-        <br />
-        {@html footerConfig.html}
-      {/if}
     </p>
   </div>
 </footer>
