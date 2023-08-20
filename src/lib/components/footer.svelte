@@ -23,7 +23,10 @@
         {/each}
         <br />
       {/if}
-      备案号：粤ICP备2022062715号
+     粤ICP备2022062715号
+      <a
+        href="https://beian.miit.gov.cn/">
+      </a>
       <br />
       <br />
       Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
