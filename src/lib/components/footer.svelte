@@ -23,10 +23,7 @@
         {/each}
         <br />
       {/if}
-     粤ICP备2022062715号
-      <a
-        href="https://beian.miit.gov.cn/">
-      </a>
+      <a href="https://beian.miit.gov.cn/" rel="noopener noreferrer external" target="_blank">粤ICP备2022062715号</a>
       <br />
       <br />
       Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
