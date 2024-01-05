@@ -11,7 +11,7 @@ export const site: SiteConfig = {
     avatar: '/assets/sixiang@512.png',
     name: 'Si·Xiang',
     status: '🐬',
-    bio: '啥都不会，来自中国的高中生'
+    bio: '啥都不会，来自中国的真•废材高中生'
   },
   themeColor: '#BDCBD2'
 }
