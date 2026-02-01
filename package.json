@@ -42,7 +42,7 @@
     "chokidar": "^3.5.3",
     "cross-env": "^7.0.3",
     "daisyui": "^2.51.6",
-    "eslint": "^8.41.0",
+    "eslint": "^9.26.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "fenceparser": "^2.2.0",
