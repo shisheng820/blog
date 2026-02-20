@@ -62,7 +62,7 @@
     "remark-fff": "1.0.0-alpha.1",
     "remark-footnotes": "~2.0.0",
     "shiki-twoslash": "^3.1.2",
-    "svelte": "^3.59.1",
+    "svelte": "^5.51.5",
     "svelte-check": "^3.4.3",
     "svelte-preprocess": "^5.0.4",
     "sveltekit-embed": "^0.0.13",
